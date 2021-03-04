@@ -63,6 +63,7 @@ The code is written in Keil's assembler format but was converted to GCC's assemb
 ### Copying
 The code is licensed under the BSD 2-clause license.
 
-### Future work
-1. Keygen can done even faster (around 2-3 times as fast) by using a pre-computed lookup table and a different algorithm.
+### Related work
+This newer repository: https://github.com/Emill/P256-Cortex-M4 adds the following features:
+1. Keygen is done even faster (around 2-3 times as fast) by using a pre-computed lookup table and a different algorithm.
 2. Support ECDSA signature generation and verification.
